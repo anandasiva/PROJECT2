@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "name": "SIVA",
+      "email": "siva1@gmail.com",
+      "city": "SURANDAI",
+      "pincode": 627859,
+      "phonenumber": 9077860868,
+      "id": 5
+    },
+    {
+      "name": "ANANDASIVA",
+      "email": "anandasiva4@gmail.com",
+      "city": "SURANDAI",
+      "pincode": 627859,
+      "phonenumber": 8438095091,
+      "id": 6
+    },
+    {
+      "name": "RIYAZ",
+      "email": "riyaz@gmail.com",
+      "city": "SANKARANKOVIL",
+      "pincode": 627869,
+      "phonenumber": 8946389439,
+      "id": 7
+    }
+  ]
+}

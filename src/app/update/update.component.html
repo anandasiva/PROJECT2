@@ -1,0 +1,40 @@
+<div class="conainer mt-5">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <h5>Update data</h5>
+                <div class="row">
+                    <form>
+                        <div class="form-group mb-2">
+                          <label for="exampleInputEmail1">Enter name</label>
+                          <input type="text" class="form-control" [(ngModel)]="employee.name" name="name"placeholder="Enter name">
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="exampleInputEmail1">Enter email</label>
+                            <input type="email" class="form-control" [(ngModel)]="employee.email" name="email" placeholder="Enter email">
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="exampleInputEmail1">Enter city</label>
+                            <input type="text" class="form-control" [(ngModel)]="employee.city" name="city"    placeholder="Enter city">
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="exampleInputEmail1">Enter pincode</label>
+                            <input type="number" class="form-control" [(ngModel)]="employee.pincode" name="pincode" placeholder="Enter pincode">
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="exampleInputEmail1">Enter phone number</label>
+                            <input type="number" class="form-control" [(ngModel)]="employee.phonenumber" name="phonenumber"   placeholder="Enter phonenumber">
+                        </div>
+                        
+                      </form>
+                     </div>
+                     <div>
+                        <button (click)="update()"class="btn btn-success">Update</button>&nbsp;
+                        <button routerLink="/" class="btn btn-dark">Back</button>
+                     </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
